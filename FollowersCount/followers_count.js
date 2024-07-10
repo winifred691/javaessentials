@@ -20,6 +20,12 @@ function increaseCount() {
           alert("Your Instagram post gained 20 followers! Keep it up!");
         }
       }
+ 
+      function resetCount() {
+        count = 0; // Increment the count by 1
+        displayCount(); // Display the count
+      }   
+
 
       function increaseCount() {
         count++; // Increment the count by 1
